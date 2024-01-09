@@ -1,0 +1,46 @@
+@font-face {
+    src: url(fonts/MADE-Gentle-PERSONAL-USE.otf);
+    font-family: Gentle;
+}
+
+@font-face {
+    src: url(fonts/Lato-Light.ttf);
+    font-family: Lato-Light;
+}
+
+:root {
+    /* Paul Tol's colorblind friendly color scheme */
+    --darkBlue: #332288;
+    --green: #117733;
+    --teal: #44AA99;
+    --lightBlue: #88CCEE;
+    --tan: #DDCC77;
+    --salmon: #CC6677;
+    --purplePink: #AA4499;
+    --magenta: #882255;
+
+    --white: #FFFFFF;
+    --black: #000000;
+
+    /* background color */
+    --bg: #2D2D30;
+}
+  
+body {
+    background-color: var(--bg);
+}
+
+h1{
+    color: var(--white);
+    font-family: Gentle, 'Lucida Sans Regular';
+}
+
+h2{
+    color: var(--white);
+    font-family: Lato-Light, 'Lucida Sans';
+}
+
+h3{
+    color: var(--white);
+    font-family: Lato-Light, 'Lucida Sans';
+}
