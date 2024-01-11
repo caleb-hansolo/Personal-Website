@@ -32,35 +32,46 @@ body {
     background-color: var(--bg);
 }
 
-.header{
+.header {
     display: flex;
     width: 100%;
-    text-align: center;
+    max-height: 400px;
+    position: relative;
     justify-content: center;
     background-color: gray;
+
 }
 
-.text{
-    
+.text {
+    background-color: #117733;
     color: white;
     display: inline-block;
-    align-items:center;
+    align-items: left;
+    padding: 2%;
     font-family: Gentle, 'Lucida Sans Regular';
-    font-size: 7em;
+    font-size: 6em;
 }
 
-h1{
+.headshot {
+    background-color: darkcyan;
+    padding: 0.5%;
+    max-width: 15%;
+    display: flex;
+    justify-content: right;
+}
+
+h1 {
     color: white;
     font-family: Gentle, 'Lucida Sans Regular';
     font-size: 6em;
 }
 
-h2{
+h2 {
     color: white;
     font-family: Lato-Light, 'Lucida Sans';
 }
 
-p{
+p {
     color: white;
     font-family: Lato-Light, 'Lucida Sans';
 }
